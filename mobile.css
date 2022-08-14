@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1440px){
+    html { overflow-x: hidden; }
+    .shade{
+        width: 90%;
+    }
+
+    .nav-ul{
+        margin-right: 5rem;
+    }
+    .topicBox{
+        display: flex;
+        justify-content: center;
+    }
+    .first{
+        padding: 1rem;
+    }
+    .my-nav{
+        top: 0;
+        width: 100%;
+    }
+   
+    .cont{
+        padding-top: 1rem;
+    }
+    .bottomRight{
+        position: absolute;
+        bottom: 0rem;
+        right: -5rem;
+    }
+    .headerLogo{
+        width: 50%;
+    }
+    .nav-ul .nav-item{
+        margin: 0 1rem;
+    }
+
+    .cont{
+        margin-left: 0;
+    }    
+    
+}
+
+@media only screen and (max-width: 700px){
+    html { overflow-x: hidden; }
+    .logo{
+        width: 50%;
+    }
+    .bottomRight{
+        position: absolute;
+        bottom: 0rem;
+        right: -9rem;
+    }
+    .headerLogo{
+        width: 20%;
+    }
+    .myC{
+        top: -1rem;
+    }
+    .cont{
+        text-align: center;
+    }
+}
